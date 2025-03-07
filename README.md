@@ -67,7 +67,8 @@ Register a new user.
     "message": "User registered"
 }
 ```
-
+### User Registered with Postman:
+![User Registered with Postman](postman-register.png)
 ---
 
 ### POST /api/login
@@ -87,7 +88,8 @@ Log in and receive a JWT token.
     "token": "eyJhbGciOi..."
 }
 ```
-
+### Log in with Postman:
+![Log in with Postman](postman-login.png)
 ---
 
 ### GET /api/users
@@ -104,7 +106,8 @@ Authorization: Bearer [your token]
     { "email": "test@example.com" }
 ]
 ```
-
+### Get user with authorization token:
+![Get user with authorization token](postman-get-user.png)
 ---
 
 ## Example of users.json
@@ -120,10 +123,10 @@ Authorization: Bearer [your token]
 ---
 
 ## Development Tips
-- Use Postman or Insomnia to test all endpoints.
+- Use Postman to test all endpoints.
 - Save your token after login so you can reuse it for protected routes.
 
 ---
 
 ## Author
-**Lesson 6 - Backend Development with Node.js and Express**
+Robert Ahlin
